@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.landing-page {
+    width: 100%;
+    height: 100vh ;
+    padding: 0 10%;
+    background-color: rgb(237, 237, 233);
+    display: flex;
+    flex-direction: column;
+}
+
+.landing-page nav img{
+    width: 90px;
+    height: 90px;
+    border-radius: 20px;
+}
+
+nav{
+    /* position: fixed; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+    /* border: 2px solid rgb(0, 255, 132); */
+
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+    position: relative;
+    z-index: 100;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #35ab9d;
+    padding-top: 50px;
+}
+
+nav ul li:hover{
+    border-radius: 50px;
+    padding: 10px 10px;
+    background-color:#dad7b2;
+    opacity: 0.8;
+    font-weight: bold;
+
+}
+
+.about-me{
+    display: flex;
+    /* margin-top: 100px; */
+    /* border: 2px solid rgb(255, 0, 212); */
+    justify-content: space-evenly;
+
+}
+
+.text-box{
+    /* flex: 1; */
+    margin-top: 20px;
+    margin-right: 50px;
+    padding: 20px;
+    /* border: 2px solid rgb(85, 85, 13); */
+
+}
+
+.text-box span{
+    padding: 5px 50px;
+    margin: 5px;
+    border-radius:100px 0px 100px 0px;
+    background:-webkit-linear-gradient(321deg, #a99ce9 0%, #29847a 85%);
+
+}
+.text-box h1{
+    font-size: 45px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    color: #3fa5b5;
+    z-index: 100;
+}
+
+.text-box a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background: #29847a;
+    padding: 10px 30px;
+    font-size: 18px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+
+.image-user-box {
+    max-width: 450px;
+    /* border: 10px solid rgb(0, 174, 255); */
+    background-color: #a99ce96b;
+    margin-left: 20px;
+    border-radius:84% 16% 99% 1% / 42% 84% 16% 58% ;
+    margin: 20px;
+}
+
+.image-user-box img{
+    max-width: 400px;
+    right: 52%;
+    margin-left: 20px;
+   border-radius:89% 11% 87% 13% / 20% 48% 52% 80% ;
+}
+
+
+.socials{
+    margin-top: 50px;
+    margin-left: 450px;
+    max-width: 600px;
+    /* border: 2px solid rgb(208, 255, 0); */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+
+.fa-brands {
+    padding: 20px;
+    font-size: 30px;
+    width: 300px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: #ab8acc;
+  }
+
+  .fa-brands:hover {
+    opacity: 0.7;
+    color: #000;
+}
