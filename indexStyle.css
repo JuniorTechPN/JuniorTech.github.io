@@ -101,8 +101,7 @@ nav ul li:hover{
 
 .image-user-box {
     max-width: 450px;
-    /* Use this to help you visualise spaces - to be removed  */
-    /* border: 10px solid rgb(0, 174, 255); */
+    max-height: 500px;
     background-color: #a99ce96b;
     margin-left: 20px;
     border-radius:84% 16% 99% 1% / 42% 84% 16% 58% ;
